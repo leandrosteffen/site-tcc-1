@@ -1,0 +1,82 @@
+
+header {
+    background: #89c0f0;
+    color: #00509e;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.aquecimento, .treinamentos{
+    margin: px auto; /* Centraliza o bloco horizontalmente */
+    width: 100%; /* Responsivo */
+    display: block; /* Garante que o vídeo seja tratado como um bloco */
+    margin: auto; /* Centraliza o vídeo horizontalmente */
+    width: 700px; /* Reduz proporcionalmente o tamanho do vídeo */
+    height: auto; /* Mantém a proporção do vídeo */
+    margin-left: 50px;
+}
+.aquecimento p, .treinamentos p {
+    margin-top: 10px; /* Adiciona espaço entre a imagem e o texto */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    color: #0074d9; /* Cor do texto */
+    line-height: 1.5; /* Melhora a legibilidade */
+}
+#irTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.3s;
+}
+
+#irTopo:hover {
+    transform: scale(1.1);
+}
+.content {
+    display: flex;
+    min-height: 100vh;
+}nav {
+    width: 250px;
+    background: #00509e;
+    padding: 1.5rem;
+    border-right: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-bottom: 1rem;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #f0f8ff;
+    background: #0074d9;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background: #00509e;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+video{
+    height: 700px;
+    width: auto ;
+};

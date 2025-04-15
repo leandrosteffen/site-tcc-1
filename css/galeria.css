@@ -1,0 +1,142 @@
+/* Centralização de h1 e h2 */
+h1 {
+    text-align: center;
+    color: #00509e;
+    margin-top: 20px;  /*Adiciona espaço após o cabeçalho */
+}
+
+h2 {
+    text-align: center;
+    color: #0074d9;
+    margin-top: 10px; /* Adiciona espaço entre o h1 e o h2 */
+}
+
+/* Estilo da div acima do h1 */
+.cabecalho {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #89c0f0;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Espaçamento abaixo do cabeçalho */
+}
+
+.cabecalho nav ul {
+    display: flex;
+    list-style: none;             /* Remove os marcadores de lista */
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho nav ul li {
+    margin: 0 15px;              /* Espaçamento entre os itens */
+}
+
+.cabecalho nav ul li a {
+    text-decoration: none;       /* Remove o sublinhado */
+    color: white;                /* Cor do texto */
+    font-weight: bold;           /* Negrito para o texto */
+    transition: color 0.3s ease; /* Efeito suave na transição de cor */
+}
+
+.cabecalho nav ul li a:hover {
+    color: #ffd700;              /* Cor ao passar o mouse (dourado, ajustável) */
+}
+
+.content {
+    display: flex; /* Configura o layout Flexbox */
+    flex-wrap: wrap; /* Permite que os itens se ajustem em múltiplas linhas, se necessário */
+    gap: 20px; /* Define o espaçamento entre os blocos */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: flex-start; /* Alinha os itens no topo verticalmente */
+    padding: 20px; /* Adiciona espaçamento interno ao contêiner */
+}
+.img{
+
+    width: 400px; /* Ajusta a largura para ocupar todo o contêiner pai */
+    max-width: auto; /* Limita o tamanho máximo da largura */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Evita espaços extras ao redor da imagem */
+}
+.bloco1{
+    margin: 20px auto; /* Centraliza o bloco horizontalmente */
+    outline: 5px solid #003366; /* Adiciona uma borda ao redor do bloco */
+    text-align: center; /* Centraliza o texto dentro do bloco */
+    max-width: 500px; /* Define uma largura máxima para o bloco */
+}
+.bloco1 p {
+    margin-top: 10px; /* Adiciona espaço entre a imagem e o texto */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    color: #0074d9; /* Cor do texto */
+    line-height: 1.5; /* Melhora a legibilidade */
+}
+.img1{
+
+    width: 400px; /* Ajusta a largura para ocupar todo o contêiner pai */
+    max-width: auto; /* Limita o tamanho máximo da largura */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Evita espaços extras ao redor da imagem */
+
+}
+.bloco2{
+    margin: 20px auto; /* Centraliza o bloco horizontalmente */
+    outline: 5px solid #003366; /* Adiciona uma borda ao redor do bloco */
+    text-align: center; /* Centraliza o texto dentro do bloco */
+    max-width: 500px; /* Define uma largura máxima para o bloco */
+}
+.bloco2 p {
+    margin-top: 10px; /* Adiciona espaço entre a imagem e o texto */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    color: #0074d9; /* Cor do texto */
+    line-height: 1.5; /* Melhora a legibilidade */
+}
+#irTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.3s;
+}
+
+#irTopo:hover {
+    transform: scale(1.1);
+}
+.content {
+    display: flex;
+    min-height: 100vh;
+}nav {
+    width: 250px;
+    
+    padding: 1.5rem;
+    border-right: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-bottom: 1rem;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #f0f8ff;
+    background: #0074d9;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background: #00509e;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+

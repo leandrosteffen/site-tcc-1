@@ -1,0 +1,277 @@
+
+/* Reset básico */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Linha de divisão */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 1.5rem 0;
+}
+
+/* Estilo do conteúdo principal */
+.content {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Menu lateral */
+nav {
+    width: 250px;
+    background: #00509e;
+    padding: 1.5rem;
+    border-right: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-bottom: 1rem;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #f0f8ff;
+    background: #0074d9;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background: #00509e;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Conteúdo principal */
+main {
+    flex: 1;
+    padding: 2rem;
+    background: #f9f9f9;
+    color: #003366;
+}
+
+main h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #00509e;
+}
+
+main p {
+    margin-bottom: 1rem;
+}
+
+main img.imagem {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Links internos */
+main a {
+    color: #00509e;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+main a:hover {
+    color: #003366;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background: #003366;
+    color: #f0f8ff;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Botão para subir */
+#irTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.3s;
+}
+
+#irTopo:hover {
+    transform: scale(1.1);
+}
+/* Reset básico */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Linha de divisão */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 1.5rem 0;
+}
+
+/* Estilo do conteúdo principal */
+.content {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Menu lateral */
+nav {
+    width: 250px;
+    background: #00509e;
+    padding: 1.5rem;
+    border-right: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-bottom: 1rem;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #f0f8ff;
+    background: #0074d9;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background: #00509e;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Conteúdo principal */
+main {
+    flex: 1;
+    padding: 2rem;
+    background: #f9f9f9;
+    color: #003366;
+}
+
+main h2, main h3 {
+    color: #00509e;
+    margin-bottom: 1rem;
+}
+
+main h2 {
+    font-size: 2rem;
+}
+
+main h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+main p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background: #003366;
+    color: #f0f8ff;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Botão para subir */
+#irTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.3s;
+}
+
+#irTopo:hover {
+    transform: scale(1.1);
+}
+
